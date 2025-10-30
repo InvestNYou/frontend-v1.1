@@ -1,0 +1,50 @@
+/* Custom Icon System - Optimized for Portfolio Graph */
+.icon-snapshot::before {
+  content: "📸";
+  margin-right: 4px;
+}
+
+.icon-refresh::before {
+  content: "🔄";
+  margin-right: 4px;
+}
+
+.icon-download::before {
+  content: "⬇️";
+  margin-right: 4px;
+}
+
+.icon-chart::before {
+  content: "📈";
+  margin-right: 4px;
+}
+
+.icon-settings::before {
+  content: "⚙️";
+  margin-right: 4px;
+}
+
+.icon-trend-up::before {
+  content: "↗";
+  margin-right: 4px;
+}
+
+.icon-trend-down::before {
+  content: "↘";
+  margin-right: 4px;
+}
+
+.icon-calendar::before {
+  content: "📅";
+  margin-right: 4px;
+}
+
+.icon-graph::before {
+  content: "📊";
+  margin-right: 4px;
+}
+
+.icon-clock::before {
+  content: "⏱️";
+  margin-right: 4px;
+}

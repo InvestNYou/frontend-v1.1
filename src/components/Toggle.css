@@ -1,0 +1,62 @@
+/* Toggle Switch Styles */
+.toggle-container {
+  position: relative;
+}
+
+.toggle-wrapper {
+  display: flex;
+  background-color: #f9fafb;
+  border-radius: 1rem;
+  padding: 0.125rem;
+  position: relative;
+  width: 12rem;
+  border: none;
+}
+
+.toggle-slider {
+  position: absolute;
+  top: 0.25rem;
+  bottom: 0.25rem;
+  background-color: #e5e7eb;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-out;
+  border: none;
+  width: calc(50% - 2px);
+}
+
+.toggle-slider.all-time {
+  transform: translateX(0);
+}
+
+.toggle-slider.daily {
+  transform: translateX(100%);
+}
+
+.toggle-button {
+  position: relative;
+  z-index: 10;
+  flex: 1;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 0.75rem;
+  transition: color 0.3s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.toggle-button.active {
+  color: #1f2937;
+}
+
+.toggle-button.inactive {
+  color: #d1d5db;
+}
+
+.toggle-button:hover {
+  color: #6b7280;
+}
+
+
